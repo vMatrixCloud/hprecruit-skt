@@ -1,7 +1,7 @@
 applications:
-- name: hpcloudrecruit
+- name: recruit-skt-test
   mem: 256M
-  instances: 3
+  instances: 1
   services:
     hpcloudrecruit-db:
       type: mysql
